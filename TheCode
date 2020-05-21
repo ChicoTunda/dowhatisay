@@ -1,0 +1,12 @@
+# Python
+
+a = int(input("Type a number between 1 or 0: "))
+b = input("Type a rude word you would call someone else: ")
+
+if a == 1:
+ print("True")
+elif a == 0:
+ print("False")
+
+else:
+ print("You did not comply you " + b + " >:(")
